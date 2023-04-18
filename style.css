@@ -1,0 +1,93 @@
+body {
+	background-image: url('background3.jpg');
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+header h1 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: normal;
+	cursor: pointer;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav li {
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav a:hover {
+	background-color: #555;
+}
+section {
+	padding: 10px;
+	text-align: center;
+}
+section h2 {
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+section p {
+	font-size: 18px;
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+section button {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+section button {
+	background-color: #555;
+	margin-top: 200px;
+}
+ header {
+	text-align: center;
+ }
+
+
+footer {
+	background-color: #333;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	padding: 0px;
+	text-align: center;
+  }
+  
+  footer p {
+	margin: 20px;
+	padding: 10px;
+	font-size: 20px;
+  }
+  
